@@ -7,6 +7,8 @@
 //
 
 import UIKit
+import Firebase
+import SwiftKeychainWrapper
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
@@ -16,6 +18,20 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
         // Override point for customization after application launch.
+        if let _ = KeychainWrapper.standard.string(forKey: "uid") {
+            self.window = UIWindow(frame: UIScreen.main.bounds)
+            
+            let storyboard = UIStoryboard(name: "Main", bundle: nil)
+            print("HELLOOOOOOOOOOOOOOOOOO")
+            let initialViewController = storyboard.instantiateViewController(withIdentifier: "LoggedIn")
+            
+            self.window?.rootViewController = initialViewController
+            self.window?.makeKeyAndVisible()
+            
+            FirebaseApp.configure()
+            return true
+        }
+        FirebaseApp.configure()
         return true
     }
 
