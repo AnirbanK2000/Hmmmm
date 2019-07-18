@@ -7,36 +7,38 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A073B5D22E0191400F5BBC8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A073B5C22E0191400F5BBC8 /* SignUpViewController.swift */; };
+		5A073B6122E0273B00F5BBC8 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A073B6022E0273B00F5BBC8 /* LogInViewController.swift */; };
+		5A073B6322E1196900F5BBC8 /* HandleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A073B6222E1196900F5BBC8 /* HandleViewController.swift */; };
 		5A1E4A1F22A97D46004A6493 /* MainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E4A1E22A97D46004A6493 /* MainFeedViewController.swift */; };
 		5A60A12D22A983F8008D6562 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A12C22A983F8008D6562 /* SearchViewController.swift */; };
 		5A60A12F22A983FF008D6562 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A12E22A983FF008D6562 /* ProfileViewController.swift */; };
 		5A60A13122A98A89008D6562 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A13022A98A89008D6562 /* CardView.swift */; };
 		5ACE4E8D22A86CBC00551E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE4E8C22A86CBC00551E27 /* AppDelegate.swift */; };
-		5ACE4E8F22A86CBC00551E27 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE4E8E22A86CBC00551E27 /* ViewController.swift */; };
 		5ACE4E9222A86CBC00551E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE4E9022A86CBC00551E27 /* Main.storyboard */; };
 		5ACE4E9422A86CBE00551E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE4E9322A86CBE00551E27 /* Assets.xcassets */; };
 		5ACE4E9722A86CBE00551E27 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE4E9522A86CBE00551E27 /* LaunchScreen.storyboard */; };
 		5ACE4E9F22A86CD900551E27 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE4E9E22A86CD800551E27 /* GoogleService-Info.plist */; };
-		5ACE4EA122A8768500551E27 /* UserCreateViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE4EA022A8768500551E27 /* UserCreateViewController.swift */; };
 		5AD6469322D3BEA80029655F /* CreatePostViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AD6469222D3BEA80029655F /* CreatePostViewController.swift */; };
 		CD496B6B886E537496BE2B9A /* Pods_Hmmmm.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE1F4421BEB26F98DE2EB71F /* Pods_Hmmmm.framework */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		0ADA49C3EFCACB2DE9126A14 /* Pods-Hmmmm.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hmmmm.release.xcconfig"; path = "Target Support Files/Pods-Hmmmm/Pods-Hmmmm.release.xcconfig"; sourceTree = "<group>"; };
+		5A073B5C22E0191400F5BBC8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		5A073B6022E0273B00F5BBC8 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
+		5A073B6222E1196900F5BBC8 /* HandleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleViewController.swift; sourceTree = "<group>"; };
 		5A1E4A1E22A97D46004A6493 /* MainFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedViewController.swift; sourceTree = "<group>"; };
 		5A60A12C22A983F8008D6562 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		5A60A12E22A983FF008D6562 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5A60A13022A98A89008D6562 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
 		5ACE4E8922A86CBC00551E27 /* Hmmmm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hmmmm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACE4E8C22A86CBC00551E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		5ACE4E8E22A86CBC00551E27 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		5ACE4E9122A86CBC00551E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		5ACE4E9322A86CBE00551E27 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		5ACE4E9622A86CBE00551E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		5ACE4E9822A86CBE00551E27 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		5ACE4E9E22A86CD800551E27 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
-		5ACE4EA022A8768500551E27 /* UserCreateViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserCreateViewController.swift; sourceTree = "<group>"; };
 		5AD6469222D3BEA80029655F /* CreatePostViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CreatePostViewController.swift; sourceTree = "<group>"; };
 		973278029E6E07B081836019 /* Pods-Hmmmm.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Hmmmm.debug.xcconfig"; path = "Target Support Files/Pods-Hmmmm/Pods-Hmmmm.debug.xcconfig"; sourceTree = "<group>"; };
 		CE1F4421BEB26F98DE2EB71F /* Pods_Hmmmm.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Hmmmm.framework; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -61,6 +63,15 @@
 				0ADA49C3EFCACB2DE9126A14 /* Pods-Hmmmm.release.xcconfig */,
 			);
 			path = Pods;
+			sourceTree = "<group>";
+		};
+		5A073B6422E1197100F5BBC8 /* Signing Up */ = {
+			isa = PBXGroup;
+			children = (
+				5A073B5C22E0191400F5BBC8 /* SignUpViewController.swift */,
+				5A073B6222E1196900F5BBC8 /* HandleViewController.swift */,
+			);
+			path = "Signing Up";
 			sourceTree = "<group>";
 		};
 		5A60A13B22A9B464008D6562 /* Post Login */ = {
@@ -96,8 +107,8 @@
 			isa = PBXGroup;
 			children = (
 				5ACE4E8C22A86CBC00551E27 /* AppDelegate.swift */,
-				5ACE4E8E22A86CBC00551E27 /* ViewController.swift */,
-				5ACE4EA022A8768500551E27 /* UserCreateViewController.swift */,
+				5A073B6422E1197100F5BBC8 /* Signing Up */,
+				5A073B6022E0273B00F5BBC8 /* LogInViewController.swift */,
 				5A60A13B22A9B464008D6562 /* Post Login */,
 				5ACE4E9022A86CBC00551E27 /* Main.storyboard */,
 				5A60A13022A98A89008D6562 /* CardView.swift */,
@@ -248,11 +259,12 @@
 			files = (
 				5A60A13122A98A89008D6562 /* CardView.swift in Sources */,
 				5A60A12F22A983FF008D6562 /* ProfileViewController.swift in Sources */,
+				5A073B6122E0273B00F5BBC8 /* LogInViewController.swift in Sources */,
 				5AD6469322D3BEA80029655F /* CreatePostViewController.swift in Sources */,
 				5A60A12D22A983F8008D6562 /* SearchViewController.swift in Sources */,
-				5ACE4E8F22A86CBC00551E27 /* ViewController.swift in Sources */,
 				5ACE4E8D22A86CBC00551E27 /* AppDelegate.swift in Sources */,
-				5ACE4EA122A8768500551E27 /* UserCreateViewController.swift in Sources */,
+				5A073B5D22E0191400F5BBC8 /* SignUpViewController.swift in Sources */,
+				5A073B6322E1196900F5BBC8 /* HandleViewController.swift in Sources */,
 				5A1E4A1F22A97D46004A6493 /* MainFeedViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

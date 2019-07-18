@@ -15,23 +15,33 @@ class AppDelegate: UIResponder, UIApplicationDelegate {
 
     var window: UIWindow?
 
-
     func application(_ application: UIApplication, didFinishLaunchingWithOptions launchOptions: [UIApplication.LaunchOptionsKey: Any]?) -> Bool {
-        // Override point for customization after application launch.
-        if let _ = KeychainWrapper.standard.string(forKey: "uid") {
-            self.window = UIWindow(frame: UIScreen.main.bounds)
-            
-            let storyboard = UIStoryboard(name: "Main", bundle: nil)
-            print("HELLOOOOOOOOOOOOOOOOOO")
-            let initialViewController = storyboard.instantiateViewController(withIdentifier: "LoggedIn")
-            
-            self.window?.rootViewController = initialViewController
-            self.window?.makeKeyAndVisible()
-            
-            FirebaseApp.configure()
-            return true
-        }
+        
         FirebaseApp.configure()
+//        print("1111111")
+//        self.window = UIWindow(frame: UIScreen.main.bounds)
+//        print("2222222")
+//        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+//        print("3333333")
+//
+//        Auth.auth().addStateDidChangeListener { auth, user in
+//            if let user = user {
+//                print("4444444")
+//
+//                let initialViewController = storyboard.instantiateViewController(withIdentifier: "LoggedIn")
+//
+//                self.window?.rootViewController = initialViewController
+//                self.window?.makeKeyAndVisible()
+//
+//            } else {
+//                print("55555555")
+//                let initialViewController = storyboard.instantiateViewController(withIdentifier: "SignUpScreen")
+//
+//                self.window?.rootViewController = initialViewController
+//                self.window?.makeKeyAndVisible()
+//
+//            }
+//        }
         return true
     }
 

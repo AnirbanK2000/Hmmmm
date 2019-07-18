@@ -43,5 +43,7 @@
 	</array>
 	<key>FirebaseScreenReportingEnabled</key>
 	<false/>
+	<key>NSPhotoLibraryUsageDescription</key>
+	<string>for user image bruh</string>
 </dict>
 </plist>
