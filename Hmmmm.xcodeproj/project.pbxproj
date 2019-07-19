@@ -17,6 +17,7 @@
 		5A60A12D22A983F8008D6562 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A12C22A983F8008D6562 /* SearchViewController.swift */; };
 		5A60A12F22A983FF008D6562 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A12E22A983FF008D6562 /* ProfileViewController.swift */; };
 		5A60A13122A98A89008D6562 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A13022A98A89008D6562 /* CardView.swift */; };
+		5AA8D09722E265E1002CB659 /* Post.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5AA8D09622E265E1002CB659 /* Post.swift */; };
 		5ACE4E8D22A86CBC00551E27 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5ACE4E8C22A86CBC00551E27 /* AppDelegate.swift */; };
 		5ACE4E9222A86CBC00551E27 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE4E9022A86CBC00551E27 /* Main.storyboard */; };
 		5ACE4E9422A86CBE00551E27 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 5ACE4E9322A86CBE00551E27 /* Assets.xcassets */; };
@@ -38,6 +39,7 @@
 		5A60A12C22A983F8008D6562 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		5A60A12E22A983FF008D6562 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5A60A13022A98A89008D6562 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		5AA8D09622E265E1002CB659 /* Post.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = Post.swift; path = /Users/anirban/Desktop/Hmmmm/Hmmmm/Post.swift; sourceTree = "<absolute>"; };
 		5ACE4E8922A86CBC00551E27 /* Hmmmm.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Hmmmm.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		5ACE4E8C22A86CBC00551E27 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		5ACE4E9122A86CBC00551E27 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -131,6 +133,7 @@
 			isa = PBXGroup;
 			children = (
 				5ACE4E8C22A86CBC00551E27 /* AppDelegate.swift */,
+				5AA8D09622E265E1002CB659 /* Post.swift */,
 				5A073B6E22E1671700F5BBC8 /* Poll Cells */,
 				5A073B6422E1197100F5BBC8 /* Signing Up */,
 				5A073B6722E1646A00F5BBC8 /* Logging In */,
@@ -286,6 +289,7 @@
 				5A60A12F22A983FF008D6562 /* ProfileViewController.swift in Sources */,
 				5A073B6122E0273B00F5BBC8 /* LogInViewController.swift in Sources */,
 				5AD6469322D3BEA80029655F /* CreatePostViewController.swift in Sources */,
+				5AA8D09722E265E1002CB659 /* Post.swift in Sources */,
 				5A073B6D22E1670900F5BBC8 /* TwoOptionsTableViewCell.swift in Sources */,
 				5A073B6922E166C900F5BBC8 /* FourOptionsTableViewCell.swift in Sources */,
 				5A073B6B22E166F200F5BBC8 /* ThreeOptionsTableViewCell.swift in Sources */,

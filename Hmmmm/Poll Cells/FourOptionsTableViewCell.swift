@@ -10,7 +10,7 @@ import UIKit
 
 
 class FourOptionsTableViewCell : UITableViewCell {
-    @IBOutlet weak var profilePicture: UIImageView!
+    //@IBOutlet weak var profilePicture: UIImageView!
     
     @IBOutlet weak var questionLabel: UILabel!
     @IBOutlet weak var usernameLabel: UILabel!
@@ -26,18 +26,18 @@ class FourOptionsTableViewCell : UITableViewCell {
         //stuff
     }
     
-    public func configure(profilePic: String? , user: String? , question: String?){
+    public func configure(/*profilePic: String? ,*/ user: String? , question: String?){
         self.questionLabel.text = question
         self.usernameLabel.text = user
         
-        if profilePic != nil {
-            let imageData = NSData(contentsOf: NSURL(string: profilePic!) as! URL)
-            self.profilePicture.image = UIImage(data: imageData as! Data)
-            
-        } else {
-            self.profilePicture.image = UIImage(named: "user")
-        }
-        
+//        if profilePic != nil {
+//            let imageData = NSData(contentsOf: NSURL(string: profilePic!) as! URL)
+//            self.profilePicture.image = UIImage(data: imageData as! Data)
+//
+//        } else {
+//            self.profilePicture.image = UIImage(named: "user")
+//        }
+//
         //ADD ANSWER BUTTON TEXT HERE
     }
     
