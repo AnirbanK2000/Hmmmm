@@ -14,6 +14,7 @@ class LogInViewController: UIViewController {
     @IBOutlet weak var emailField: UITextField!
     @IBOutlet weak var passwordField: UITextField!
     
+    var ref = Database.database().reference()
     override func viewDidLoad() {
         super.viewDidLoad()
 
@@ -23,15 +24,16 @@ class LogInViewController: UIViewController {
         guard emailField.text != "" , passwordField.text != "" else { return }
         
         Auth.auth().signIn(withEmail: emailField.text!, password: passwordField.text!) { (user, error) in
-            if let error = error {
-                print("hello")
-                print(error.localizedDescription)
-            }
-            if let user = user {
-                let storyBoard: UIStoryboard = UIStoryboard(name: "Main", bundle: nil)
-                let newViewController = storyBoard.instantiateViewController(withIdentifier: "LoggedIn") //as! MainFeedViewController
-                
-                self.present(newViewController, animated: true, completion: nil)
+            if error == nil {
+                self.ref.child("user_profiles").child(user!.user.uid).child("handle").observeSingleEvent(of: .value, with: { (snapshot : DataSnapshot) in
+                    if !snapshot.exists() {
+                        self.performSegue(withIdentifier: "HandleViewSegue", sender: nil)
+                    } else {
+                        self.performSegue(withIdentifier: "HomeViewSegue", sender: nil)
+                    }
+                })
+            } else {
+                print(error?.localizedDescription)
             }
         }
     }

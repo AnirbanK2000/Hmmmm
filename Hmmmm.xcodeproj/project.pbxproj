@@ -10,7 +10,10 @@
 		5A073B5D22E0191400F5BBC8 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A073B5C22E0191400F5BBC8 /* SignUpViewController.swift */; };
 		5A073B6122E0273B00F5BBC8 /* LogInViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A073B6022E0273B00F5BBC8 /* LogInViewController.swift */; };
 		5A073B6322E1196900F5BBC8 /* HandleViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A073B6222E1196900F5BBC8 /* HandleViewController.swift */; };
-		5A1E4A1F22A97D46004A6493 /* MainFeedViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E4A1E22A97D46004A6493 /* MainFeedViewController.swift */; };
+		5A073B6922E166C900F5BBC8 /* FourOptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A073B6822E166C900F5BBC8 /* FourOptionsTableViewCell.swift */; };
+		5A073B6B22E166F200F5BBC8 /* ThreeOptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A073B6A22E166F200F5BBC8 /* ThreeOptionsTableViewCell.swift */; };
+		5A073B6D22E1670900F5BBC8 /* TwoOptionsTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A073B6C22E1670900F5BBC8 /* TwoOptionsTableViewCell.swift */; };
+		5A1E4A1F22A97D46004A6493 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A1E4A1E22A97D46004A6493 /* HomeViewController.swift */; };
 		5A60A12D22A983F8008D6562 /* SearchViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A12C22A983F8008D6562 /* SearchViewController.swift */; };
 		5A60A12F22A983FF008D6562 /* ProfileViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A12E22A983FF008D6562 /* ProfileViewController.swift */; };
 		5A60A13122A98A89008D6562 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5A60A13022A98A89008D6562 /* CardView.swift */; };
@@ -28,7 +31,10 @@
 		5A073B5C22E0191400F5BBC8 /* SignUpViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
 		5A073B6022E0273B00F5BBC8 /* LogInViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LogInViewController.swift; sourceTree = "<group>"; };
 		5A073B6222E1196900F5BBC8 /* HandleViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HandleViewController.swift; sourceTree = "<group>"; };
-		5A1E4A1E22A97D46004A6493 /* MainFeedViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainFeedViewController.swift; sourceTree = "<group>"; };
+		5A073B6822E166C900F5BBC8 /* FourOptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FourOptionsTableViewCell.swift; sourceTree = "<group>"; };
+		5A073B6A22E166F200F5BBC8 /* ThreeOptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = ThreeOptionsTableViewCell.swift; path = ../ThreeOptionsTableViewCell.swift; sourceTree = "<group>"; };
+		5A073B6C22E1670900F5BBC8 /* TwoOptionsTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TwoOptionsTableViewCell.swift; sourceTree = "<group>"; };
+		5A1E4A1E22A97D46004A6493 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 		5A60A12C22A983F8008D6562 /* SearchViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchViewController.swift; sourceTree = "<group>"; };
 		5A60A12E22A983FF008D6562 /* ProfileViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProfileViewController.swift; sourceTree = "<group>"; };
 		5A60A13022A98A89008D6562 /* CardView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
@@ -74,15 +80,33 @@
 			path = "Signing Up";
 			sourceTree = "<group>";
 		};
-		5A60A13B22A9B464008D6562 /* Post Login */ = {
+		5A073B6722E1646A00F5BBC8 /* Logging In */ = {
 			isa = PBXGroup;
 			children = (
-				5A1E4A1E22A97D46004A6493 /* MainFeedViewController.swift */,
-				5A60A12C22A983F8008D6562 /* SearchViewController.swift */,
+				5A073B6022E0273B00F5BBC8 /* LogInViewController.swift */,
+			);
+			path = "Logging In";
+			sourceTree = "<group>";
+		};
+		5A073B6E22E1671700F5BBC8 /* Poll Cells */ = {
+			isa = PBXGroup;
+			children = (
+				5A073B6822E166C900F5BBC8 /* FourOptionsTableViewCell.swift */,
+				5A073B6A22E166F200F5BBC8 /* ThreeOptionsTableViewCell.swift */,
+				5A073B6C22E1670900F5BBC8 /* TwoOptionsTableViewCell.swift */,
+			);
+			path = "Poll Cells";
+			sourceTree = "<group>";
+		};
+		5A60A13B22A9B464008D6562 /* After Login */ = {
+			isa = PBXGroup;
+			children = (
+				5A1E4A1E22A97D46004A6493 /* HomeViewController.swift */,
 				5AD6469222D3BEA80029655F /* CreatePostViewController.swift */,
+				5A60A12C22A983F8008D6562 /* SearchViewController.swift */,
 				5A60A12E22A983FF008D6562 /* ProfileViewController.swift */,
 			);
-			path = "Post Login";
+			path = "After Login";
 			sourceTree = "<group>";
 		};
 		5ACE4E8022A86CBC00551E27 = {
@@ -107,9 +131,10 @@
 			isa = PBXGroup;
 			children = (
 				5ACE4E8C22A86CBC00551E27 /* AppDelegate.swift */,
+				5A073B6E22E1671700F5BBC8 /* Poll Cells */,
 				5A073B6422E1197100F5BBC8 /* Signing Up */,
-				5A073B6022E0273B00F5BBC8 /* LogInViewController.swift */,
-				5A60A13B22A9B464008D6562 /* Post Login */,
+				5A073B6722E1646A00F5BBC8 /* Logging In */,
+				5A60A13B22A9B464008D6562 /* After Login */,
 				5ACE4E9022A86CBC00551E27 /* Main.storyboard */,
 				5A60A13022A98A89008D6562 /* CardView.swift */,
 				5ACE4E9322A86CBE00551E27 /* Assets.xcassets */,
@@ -261,11 +286,14 @@
 				5A60A12F22A983FF008D6562 /* ProfileViewController.swift in Sources */,
 				5A073B6122E0273B00F5BBC8 /* LogInViewController.swift in Sources */,
 				5AD6469322D3BEA80029655F /* CreatePostViewController.swift in Sources */,
+				5A073B6D22E1670900F5BBC8 /* TwoOptionsTableViewCell.swift in Sources */,
+				5A073B6922E166C900F5BBC8 /* FourOptionsTableViewCell.swift in Sources */,
+				5A073B6B22E166F200F5BBC8 /* ThreeOptionsTableViewCell.swift in Sources */,
 				5A60A12D22A983F8008D6562 /* SearchViewController.swift in Sources */,
 				5ACE4E8D22A86CBC00551E27 /* AppDelegate.swift in Sources */,
 				5A073B5D22E0191400F5BBC8 /* SignUpViewController.swift in Sources */,
 				5A073B6322E1196900F5BBC8 /* HandleViewController.swift in Sources */,
-				5A1E4A1F22A97D46004A6493 /* MainFeedViewController.swift in Sources */,
+				5A1E4A1F22A97D46004A6493 /* HomeViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
